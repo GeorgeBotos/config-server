@@ -19,4 +19,16 @@ spring:
           timeout: 5
           clone-on-start: true
           force-pull: true
+          ignore-local-ssh-settings: true
+          host-key: AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
+          host-key-algorithm: ssh-ed25519
+          private-key:
+            -----BEGIN OPENSSH PRIVATE KEY-----
+            b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+            QyNTUxOQAAACCrIkDQC3+rM4BoTU0viJM5iFT5Y2xhf77Jwrok8rIb8QAAAJgVOaxoFTms
+            aAAAAAtzc2gtZWQyNTUxOQAAACCrIkDQC3+rM4BoTU0viJM5iFT5Y2xhf77Jwrok8rIb8Q
+            AAAEBi6eVzQTc1Bagdz6wWRxPCDHCsIblnvuTQRQqE1hSWiKsiQNALf6szgGhNTS+IkzmI
+            VPljbGF/vsnCuiTyshvxAAAAFG1hYy1wcm9AZ2VvcmdlLmxvY2FsAQ==
+            -----END OPENSSH PRIVATE KEY-----
+
 
