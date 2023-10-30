@@ -22,7 +22,7 @@ spring:
           ignore-local-ssh-settings: true
           host-key: AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
           host-key-algorithm: ssh-ed25519
-          private-key:
+          private-key: |
             -----BEGIN OPENSSH PRIVATE KEY-----
             b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
             QyNTUxOQAAACCrIkDQC3+rM4BoTU0viJM5iFT5Y2xhf77Jwrok8rIb8QAAAJgVOaxoFTms
